@@ -47,7 +47,7 @@ parfor i = 1:num
     end
                                                            
     angle_y = angle_lat * pi/180;                     %求图像中心到上顶点的方向角，并转化为弧度
-    angle_x = angle_lon * pi/180;                     %求图像中心到右顶点的方向角，并转化为弧度
+    angle_x = angle_lon * pi/180;                     %求图像中心到左顶点的方向角，并转化为弧度
     
     lat = LAT(i,1);
     lon = LON(i,1);
